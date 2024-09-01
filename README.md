@@ -134,3 +134,29 @@ contract VotingSystem {
     }
 }
 ```
+## How to Use
+### Deployment
+* Deploy the contract to the Ethereum blockchain by providing an initial supply of tokens to the constructor.
+* The deploying address will become the owner of the contract and will have the initial supply of tokens.
+### Managing the Voting Process
+* Minting Tokens: The contract owner can mint additional tokens to specific addresses using the mintTokens function.
+* Burning Tokens: The contract owner can burn tokens from specific addresses using the burnTokens function.
+* Adding Candidates: The contract owner can add candidates to the election using the addCandidate function.
+* Starting Voting: The contract owner can start the voting period by calling the startVoting function and specifying the * * duration of the voting period.
+* Ending Voting: The contract owner can end the voting period by calling the endVoting function.
+### Voting
+* During the voting period, users can vote for a candidate by calling the vote function and specifying the candidate's * address and the amount of tokens to vote with.
+* Users must have a sufficient token balance to vote.
+* Voting can only occur during the active voting period.
+## Usage
+* Deploy the Contract: Deploy the contract with an initial token supply.
+* Add Candidates: The owner adds candidates using addCandidate.
+* Start Voting: The owner starts the voting period with startVoting.
+* Vote: Users cast their votes with vote.
+* End Voting: The owner ends the voting period using endVoting.
+* Retrieve Results: Use getCandidates and getVotes to retrieve voting results.
+## Author
+Vageshwari Chaudhary vageshwari1062@gmail.com
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
