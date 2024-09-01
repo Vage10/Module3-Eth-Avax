@@ -25,6 +25,11 @@ The VotingSystem smart contract is a Solidity-based implementation of a voting s
 * event VotingStarted(uint startTime, uint endTime): Emitted when voting starts.
 * event VotingEnded(uint endTime): Emitted when voting ends.
 ## Getting started
+### Installing
+This program runs on EVM along with ".sol" as extension. We can either run it on websites like Remix or even on Visual Studios.
+
+### Executing program
+We need a solidity compatible virtual machine in order to run this program. Create a new file with ".sol" extension
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
